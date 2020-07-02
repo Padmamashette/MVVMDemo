@@ -1,0 +1,73 @@
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.baml
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.g.cs
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.g.cs
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\App.g.cs
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.cache
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.lref
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe.config
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.pdb
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.baml
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.g.resources
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.Properties.Resources.resources
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.GenerateResource.Cache
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.exe
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.pdb
+C:\Users\gopal.zalke\Documents\Visual Studio 2013\Projects\C# Apps\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csprojResolveAssemblyReference.cache
+C:\Users\padma.mashette\Downloads\MVVMDemo-20190628T082621Z-001\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe.config
+C:\Users\padma.mashette\Downloads\MVVMDemo-20190628T082621Z-001\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.exe
+C:\Users\padma.mashette\Downloads\MVVMDemo-20190628T082621Z-001\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.pdb
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe.config
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.exe
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.pdb
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.pdb
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csprojResolveAssemblyReference.cache
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.baml
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.g.cs
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.g.cs
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\App.g.cs
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.cache
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.lref
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.baml
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.g.resources
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.Properties.Resources.resources
+C:\Users\padma.mashette\Documents\Visual Studio 2013\Projects\c#\cSharp_Assignments\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.GenerateResource.Cache
+D:\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe.config
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.exe
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.pdb
+D:\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe
+D:\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.pdb
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csprojAssemblyReference.cache
+D:\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.baml
+D:\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.g.cs
+D:\MVVMDemo\MVVMDemo\obj\Debug\Views\StudentView.g.cs
+D:\MVVMDemo\MVVMDemo\obj\Debug\App.g.cs
+D:\MVVMDemo\MVVMDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.cache
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.lref
+D:\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.baml
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.g.resources
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.Properties.Resources.resources
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.GenerateResource.cache
+D:\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.CoreCompileInputs.cache
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe.config
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.exe
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\bin\Debug\MVVMDemo.pdb
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.g.cs
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\View\StudentView.g.cs
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\App.g.cs
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.cache
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo_MarkupCompile.lref
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MainWindow.baml
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\View\StudentView.baml
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.g.resources
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.Properties.Resources.resources
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.GenerateResource.cache
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csproj.CoreCompileInputs.cache
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.exe
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.pdb
+D:\Padma M\All task\CCC Task\MVVMDemo\MVVMDemo\obj\Debug\MVVMDemo.csprojAssemblyReference.cache

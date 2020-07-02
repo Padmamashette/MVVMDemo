@@ -1,0 +1,335 @@
+﻿<Window x:Class="MVVMDemo.View.StudentView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:convert="clr-namespace:MVVMDemo.Converter"
+        xmlns:vm="clr-namespace:MVVMDemo.ViewModel"
+        mc:Ignorable="d"
+        Title="User Information"
+        Height="390" 
+        Width="350"
+        MinHeight="390"
+        MinWidth="350"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False">
+    <Window.Resources>
+        <convert:EnumMatchToBooleanConverter x:Key="enumConverter" />
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="true">
+                            <Border Background="Red"
+                                    DockPanel.Dock="right"
+                                    Margin="-25,0,0,0"
+                                    Width="12"
+                                    Height="12"
+                                    CornerRadius="6"
+                                    ToolTip="{Binding ElementName=customAdorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}">
+                                <TextBlock Text="!"
+                                           VerticalAlignment="center"
+                                           HorizontalAlignment="center"
+                                           FontWeight="Bold"
+                                           Foreground="white">
+                                </TextBlock>
+
+                            </Border>
+                            <AdornedElementPlaceholder Name="customAdorner"
+                                                       VerticalAlignment="Center">
+                                <Border BorderBrush="red"
+                                        BorderThickness="1"
+                                        ToolTip="{Binding ElementName=customAdorner, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}" />
+                            </AdornedElementPlaceholder>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox  Grid.Row="0"
+                   Header="Enter User Information"
+                   FontWeight="DemiBold"
+                   Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Name : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,5,5,5"
+                           Padding="0" />
+                    <TextBox Name="TextBoxName"
+                             Text="{Binding Model.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged , ValidatesOnDataErrors=True}"
+                             Grid.Column="1"
+                             VerticalAlignment="Center"
+                             VerticalContentAlignment="Center"
+                             Margin="48,5,0,5"
+                             Height="24" />
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Phone Number : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <TextBox Name="TextBoxPhone"
+                             Text="{Binding Model.Phone_Number, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged , ValidatesOnDataErrors=True}"
+                             Grid.Column="1"
+                             VerticalAlignment="Center"
+                             VerticalContentAlignment="Center"
+                             Margin="0,0,0,5"
+                             Height="24" />
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Email-Id : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <TextBox Name="TextBoxEmail"
+                             Text="{Binding Model.Email_ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged , ValidatesOnDataErrors=True}"
+                             Grid.Column="1"
+                             VerticalAlignment="Center"
+                             VerticalContentAlignment="Center"
+                             Margin="37,0,0,5"
+                             Height="24" />
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Address : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <TextBox Name="TextBoxAddress"
+                             Text="{Binding Model.Address, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged , ValidatesOnDataErrors=True}"
+                             Grid.Column="1"
+                             HorizontalAlignment="Stretch"
+                             VerticalAlignment="Center"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True"
+                             Margin="37,0,0,5"
+                             Height="48" />
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Gender : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <RadioButton Content="Male"
+                                 Grid.Column="1"
+                                 GroupName="GenderRadioButton"
+                                 IsChecked="{Binding SelectedGender, Converter={StaticResource enumConverter}, ConverterParameter={x:Static vm:StudentViewModel+GenderEnum.Male},Mode=TwoWay}"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Center"
+                                 Height="24"
+                                 Margin="40,0,5,5"/>
+                    <RadioButton Content="Female"
+                                 Grid.Column="2"
+                                 GroupName="GenderRadioButton"
+                                 IsChecked="{Binding SelectedGender, Converter={StaticResource enumConverter}, ConverterParameter={x:Static vm:StudentViewModel+GenderEnum.Female},Mode=TwoWay}"
+                                 HorizontalAlignment="Left"
+                                 VerticalAlignment="Center"
+                                 Height="24"
+                                 Margin="0,0,5,5"/>
+                    <!--IsChecked="{Binding SelectedSubscriptionPlan, Converter={StaticResource enumConverter}, ConverterParameter={x:Static vm:StudentViewModel+SubscriptionPlan.Yearly},Mode=TwoWay}"-->
+
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="DOB : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,0,5"
+                           Padding="0" />
+                    <DatePicker Grid.Column="1"
+                                VerticalAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Margin="60,0,5,5"
+                                SelectedDateChanged="DatePicker_SelectedDateChanged" />
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Blood Group : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <ComboBox Grid.Column="1"
+                              Name="BloodGroupComboBox"
+                              ItemsSource="{Binding Model.BloodGroupList}"
+                              SelectedItem="{Binding Model.BloodGroup,UpdateSourceTrigger=PropertyChanged}"
+                              SelectedIndex="{Binding Model.SelectedBloodGroupIndex}"
+                              IsEditable="True"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Height="24"
+                              Width="Auto"
+                              Margin="13,0,0,5" />
+                </Grid>
+                <Grid Grid.Row="7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="State : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <ComboBox Grid.Column="1"
+                              Name="StateComboBox"
+                              ItemsSource="{Binding Model.StateList}"
+                              SelectedItem="{Binding Model.State,UpdateSourceTrigger=PropertyChanged}"
+                              SelectedIndex="{Binding Model.SelectedStateIndex}"
+                              IsEditable="True"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Height="24"
+                              Width="Auto"
+                              Margin="54,0,0,5" />
+                </Grid>
+                <Grid Grid.Row="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="City : "
+                           Grid.Column="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="24"
+                           Margin="0,0,5,5"
+                           Padding="0" />
+                    <ComboBox Grid.Column="1"
+                              Name="CityComboBox"
+                              ItemsSource="{Binding Model.CityList}"
+                              SelectedItem="{Binding Model.City,UpdateSourceTrigger=PropertyChanged}"
+                              SelectedIndex="{Binding Model.SelectedCityIndex}"
+                              IsEnabled="{Binding Model.IsCityComboBoxEditable}"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Height="24"
+                              Width="Auto"
+                              Margin="60,0,0,5" />
+                </Grid>
+                <Grid Grid.Row="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Content="Show Data"
+                            Grid.Column="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                            Width="80"
+                            Height="24"
+                            Margin="0,0,5,5"
+                            IsEnabled="True"
+                            Command="{Binding ShowDataButtonCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                    <Button Content="Clear"
+                            Grid.Column="1"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                            Width="80"
+                            Height="24"
+                            Margin="5,0,5,5"
+                            IsEnabled="True"
+                            Command="{Binding ClearButtonCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                    <Button Content="Cancel"
+                            Grid.Column="2"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                            Width="80"
+                            Height="24"
+                            Margin="0,0,5,5"
+                            IsEnabled="True"
+                            Command="{Binding CancelButtonCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                </Grid>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
